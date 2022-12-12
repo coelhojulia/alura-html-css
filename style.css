@@ -9,15 +9,16 @@ body {
 
 .principal {
     background: white
+    padding: 30px;
 }
 
-h1 {
+.titulo-centralizado {
     text-align: center
 }
 
 p {
     text-align: center;
-    background: #cccccc;
+    background: white;
 }
 
 #missao {
@@ -33,9 +34,21 @@ em strong {
 }
 
 .beneficios {
-    background: white
+    background: white;
+    padding: 20px;
 }
 
 h2 {
     text-align: center
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: : 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
