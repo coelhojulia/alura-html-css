@@ -1,5 +1,5 @@
 body {
-    background: #cccccc
+    background:white
 }
 
 #banner {
@@ -8,8 +8,12 @@ body {
 }
 
 .principal {
-    background: white
-    padding: 30px;
+    background: lightgray
+    padding 20px; 
+}
+
+.titulo-principal {
+    padding-left: 20px;
 }
 
 .titulo-centralizado {
@@ -38,14 +42,14 @@ em strong {
     padding: 20px;
 }
 
-h2 {
+h3 {
     text-align: center
 }
 
 ul {
     display: inline-block;
     vertical-align: top;
-    width: : 20%;
+    width: 20%;
     margin-right: 15%;
 }
 
