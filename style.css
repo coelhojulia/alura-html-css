@@ -126,9 +126,11 @@ form p {
     font-size: 18px;
     border: none;
     border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
 }
+
 .enviar:hover {
     background-color: black;
-    transition: 1s background;
-    cursor: pointer;
+    transform: rotate(10deg) scale(1.2);
 }
