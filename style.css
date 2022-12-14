@@ -145,19 +145,22 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid rgb(27, 27, 27);
     padding: 8px 15px;
 }
+
 /* css da home */
 .banner {
-width: 100%;
+    width: 100%;
 }
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
-    font-weight: bold;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .principal {
@@ -168,7 +171,20 @@ width: 100%;
     margin: 0 0 1em;
 }
 
-.principalstrong {
+.principal strong {
     font-weight: bold;
+}
+
+.principal em {
     font-style: italic;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
