@@ -30,6 +30,7 @@ nav a {
 
 nav a:hover {
     color: darkcyan;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -48,6 +49,16 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: darkcyan;
+}
+ .produtos li:hover h2 {
+    font-size: 34px;
+ }
+.produtos li:active {
+    border-color: grey;
 }
 
 .produtos h2 {
