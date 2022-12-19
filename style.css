@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background: lightgray;
     padding: 20px 0;
